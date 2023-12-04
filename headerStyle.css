@@ -1,0 +1,64 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 70px;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* background: url('Nav_Background.jpg') center/cover no-repeat; */
+    background: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 15, 125, 0.75));
+        
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+.left{
+    margin-left : 70px;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.bluePortfolio{
+    color: #48b0ffd3;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+nav ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover{
+    color: aqua;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+.update{
+    font-size: 0.7rem;
+    font-family: monospace;
+}
+
+

@@ -1,0 +1,115 @@
+#skill{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 0;
+    padding: 100px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), #001631bd, rgba(0, 0, 0, 0.8));
+}
+
+/* .skill #heading,
+.skill span{
+    align-self: center;
+    font-size: 3.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    text-decoration: underline whitesmoke;
+} */
+
+.skill_container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    row-gap: 3.5rem;
+}
+
+.skill_content{
+    margin:0 100px;
+    border-radius: 5%;
+    background-color: #00163154;
+}
+
+.skill_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.5rem;
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 2rem;
+    text-decoration: underline rgba(255, 255, 255, 0.509);
+
+}
+
+.skill_info,
+.skill_data,
+.skill_blob{
+    display: grid;
+}
+
+.skill_info{
+    grid-template-columns: repeat(4,1fr);
+    gap: 2.5rem 2rem;
+}
+
+.skill_data{
+    justify-content: center;
+    text-align: center;
+}
+.skill_blob{
+    display: flex;
+    width: 90px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin:1rem 1rem;
+    transition: all 0.5s ease;
+}
+.skill_blob:hover{
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.skill_blob img{
+    width: 50%;
+}
+.skill_blob:hover img{
+    animation: blink 0.5s ease;
+    transition: all 0.5s ease;
+}
+@keyframes blink {
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-5px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    75%{
+        transform: translateY(-3px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+    
+}
+
+.skill_name{
+    font-size: 0.9rem;
+    font-family: monospace;
+}
+.skill_field{
+    font-size: 0.7rem;
+    font-family: monospace;
+    color: rgb(122, 122, 122);
+}
+.subheading{
+    font-size: 01rem;
+    font-family: monospace;
+    color: rgb(122, 122, 122);
+    margin-bottom: 40px;
+}

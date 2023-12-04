@@ -1,0 +1,25 @@
+#projects{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 0;
+    padding: 100px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), #001631bd, rgba(0, 0, 0, 0.8));
+}
+.undone{
+    font-size: 2rem;
+    color: white;
+    animation: update 3s ease-in-out infinite ;
+}
+@keyframes update {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}
