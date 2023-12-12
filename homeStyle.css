@@ -75,3 +75,21 @@
     font-weight: 700;
     text-shadow: 0 0 10px rgb(63, 5, 223);
 }
+
+
+/* Responsive styles */
+
+@media only screen and (max-width: 850px) {
+    #home {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    #home>div {
+      width: 100%;
+    }
+  
+    .rightsec img {
+      width: 70%;
+    }
+  }
