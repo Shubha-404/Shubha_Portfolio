@@ -32,6 +32,7 @@ nav ul li{
 }
 nav ul li a {
     text-decoration: none;
+    font-size: 1rem;
     color: white;
     position: relative;
     transition: all 0.3s ease;
@@ -73,6 +74,10 @@ nav ul li a:hover::after {
     .left {
       margin-left: 20px;
       margin-bottom: 10px;
+      font-size: 1.2rem;
+    }
+    .update{
+      font-size: 0.5rem;
     }
   
     nav ul {
@@ -84,6 +89,8 @@ nav ul li a:hover::after {
     }
   
     nav ul li a {
+      font-size: 0.5rem;
       padding: 10px;
     }
+
   }

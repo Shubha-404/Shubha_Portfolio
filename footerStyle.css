@@ -22,21 +22,6 @@ footer {
 
 @media only screen and (max-width: 850px) {
     .end p {
-        font-size: 0.7rem;
+        font-size: 0.5rem;
     }
 }
-
-
-/* Responsive styles */
-
-@media only screen and (max-width: 768px) {
-    .left_about img {
-      display: none;
-    }
-  }
-  
-  @media only screen and (max-width: 480px) {
-    #aboutme>div {
-      width: 90%; 
-    }
-  }
