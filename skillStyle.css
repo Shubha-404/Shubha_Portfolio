@@ -129,6 +129,9 @@
 /* Responsive styles */
 
 @media only screen and (max-width: 1300px) {
+    #skill{
+        padding: 20px 0;
+    }
     .skill_content {
         width: 85%;
         margin-bottom: 20px;
@@ -177,7 +180,17 @@
     }
     .skill_info {
         grid-template-columns: repeat(3, 1fr);
-        gap: 2rem 1rem;
+        gap: 1rem 1rem;
+    }
+    .skill_title {
+        font-size: 1rem;
+    }
+    .skill_name {
+        font-size: 0.5rem;
+    }
+
+    .skill_field {
+        font-size: 0.3rem;
     }
 }
 

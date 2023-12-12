@@ -1,4 +1,4 @@
-#aboutme{
+#aboutme {
     display: flex;
     justify-content: center;
     margin: 50px 0;
@@ -6,25 +6,27 @@
     background: linear-gradient(rgba(0, 0, 0, 0.8), #001631bd, rgba(0, 0, 0, 0.8));
 }
 
-#aboutme>div{
+#aboutme>div {
     width: 45%;
 }
+
 /* .right_about{
     width: 40%;
 } */
-.left_about img{
+.left_about img {
     width: 50%;
 }
 
 
-.right_about .description{
+.right_about .description {
     padding-bottom: 20px;
     font-size: 1.2rem;
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
-    
+
 }
-.right_about .description .smallname{
+
+.right_about .description .smallname {
     text-decoration: none;
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
@@ -35,10 +37,13 @@
 
 @media only screen and (max-width: 850px) {
     .left_about {
-      display: none;
+        display: none;
     }
+
     #aboutme>div {
-        width: 80%; 
-      }
-  }
-  
+        width: 80%;
+    }
+    #aboutme{
+        padding: 20px 0;
+    }
+}

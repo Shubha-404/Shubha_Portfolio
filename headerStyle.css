@@ -73,7 +73,7 @@ nav ul li a:hover::after {
   
     .left {
       margin-left: 20px;
-      margin-bottom: 10px;
+      margin-bottom: 2px;
       font-size: 1.2rem;
     }
     .update{
@@ -96,6 +96,6 @@ nav ul li a:hover::after {
   }
   @media only screen and (max-width: 500px){
     nav ul li a {
-      font-size: 0.3rem;
+      font-size: 0.6rem;
     }
   }

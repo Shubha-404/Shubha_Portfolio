@@ -1,17 +1,20 @@
-.qualification{
-    display: flex;
-    justify-content: space-around;
-    margin: 50px 0;
-    padding: 100px 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), #001631bd, rgba(0, 0, 0, 0.8));
+.qualification {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+  padding: 100px 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), #001631bd, rgba(0, 0, 0, 0.8));
+
 }
-.qualification .right_qualification{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.qualification .right_qualification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.qualification .right_qualification img{
-    width: 90%;
+
+.qualification .right_qualification img {
+  width: 90%;
 }
 
 /* .left_qualification #heading,
@@ -23,50 +26,73 @@
 } */
 
 .container {
-    width: 100%;
-    margin: auto;
-  }
-  
+  width: 100%;
+  margin: auto;
+}
+
 .section {
-    border: 0.2rem solid #00acf075;
-    margin-bottom: 1.5rem;
-    border-radius: 0.6rem;
-    padding: 1.5rem;
-    box-shadow: 0 0 1rem #00acf075;
+  border: 0.2rem solid #00acf075;
+  margin-bottom: 1.5rem;
+  border-radius: 0.6rem;
+  padding: 1.5rem;
+  box-shadow: 0 0 1rem #00acf075;
+}
+
+.des {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  text-shadow: 4px 2px 4px #00acf075;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.institution {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  padding-bottom: 7px;
+}
+
+.year {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  padding-bottom: 7px;
+}
+
+.score {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9 rem;
+  padding-bottom: 7px;
+}
+
+
+
+@media only screen and (max-width: 850px) {
+  #qualification {
+    padding: 20px 0;
   }
-  
+
+  .qualification .right_qualification img {
+    display: none;
+  }
+
+  .qualification .left_qualification {
+    width: 85%;
+  }
+
   .des {
-    font-family: 'Poppins', sans-serif;
-    color: #ffffff;
-    text-shadow: 4px 2px 4px #00acf075;
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding-bottom: 10px;
+    font-size: 1.2rem;
   }
 
   .institution {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.2rem;
-    padding-bottom: 7px;
+    font-size: 1rem;
   }
 
   .year {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
-    padding-bottom: 7px;
+    font-size: 0.8rem;
   }
 
-  .score{
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.9 rem;
-    padding-bottom: 7px;
+  .score {
+    font-size: 0.7 rem;
   }
-
-
-
-  @media only screen and (max-width: 850px) {
-    .right_qualification {
-      display: none;
-    }
-    
-  }
+}
