@@ -72,12 +72,13 @@ nav ul li a:hover::after {
     }
   
     .left {
-      margin-left: 20px;
+      margin-left: 5px;
       margin-bottom: 2px;
       font-size: 1.2rem;
     }
     .update{
       font-size: 0.5rem;
+      margin: 1px 0;
     }
   
     nav ul {
@@ -85,17 +86,17 @@ nav ul li a:hover::after {
     }
   
     nav ul li {
-      margin: 10px 0;
+      margin: 2px 0;
     }
   
     nav ul li a {
       font-size: 0.7rem;
-      padding: 10px;
+      padding: 8px;
     }
 
   }
-  @media only screen and (max-width: 500px){
+  /* @media only screen and (max-width: 500px){
     nav ul li a {
       font-size: 0.6rem;
     }
-  }
+  } */

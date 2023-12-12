@@ -111,19 +111,19 @@
     }
   
     .rightsec img {
-      width: 70%;
+      width: 80%;
       margin-top: 30px;
       margin-bottom: 0px;
     }
 
     #home .leftsec {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .name {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     #element{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
   }
