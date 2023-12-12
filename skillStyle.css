@@ -113,3 +113,27 @@
     color: rgb(122, 122, 122);
     margin-bottom: 40px;
 } */
+
+
+/* Responsive styles */
+
+@media only screen and (max-width: 1200px) {
+    .skill_container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .skill_content {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  
+    .skill_blob {
+      width: 70px;
+      height: 80px;
+    }
+  
+    .skill_blob img {
+      width: 40%;
+    }
+  }

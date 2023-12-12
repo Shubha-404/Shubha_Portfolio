@@ -38,6 +38,7 @@
                 
     animation: floatingimg 4s ease-in-out infinite;
     animation-delay: 2s;
+    align-self: center;
 }
 
 @keyframes floatingimg {
@@ -79,10 +80,29 @@
 
 /* Responsive styles */
 
+@media only screen and (max-width: 1200px) {
+    .name {
+        font-size: 3rem;
+    }
+    #element{
+        font-size: 3rem;
+    }
+  
+    .rightsec img {
+      width: 90%;
+      margin-top: 30px;
+    }
+
+    #home .leftsec {
+        font-size: 3rem;
+    }
+  }
+
 @media only screen and (max-width: 850px) {
     #home {
       flex-direction: column;
       text-align: center;
+      width: 100%;
     }
   
     #home>div {
@@ -90,6 +110,18 @@
     }
   
     .rightsec img {
-      width: 70%;
+      width: 50%;
+      margin-top: 30px;
+    }
+
+    #home .leftsec {
+        font-size: 3rem;
+    }
+
+    .name {
+        font-size: 3rem;
+    }
+    #element{
+        font-size: 3rem;
     }
   }
