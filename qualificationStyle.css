@@ -61,3 +61,12 @@
     font-size: 0.9 rem;
     padding-bottom: 7px;
   }
+
+
+
+  @media only screen and (max-width: 850px) {
+    .right_qualification {
+      display: none;
+    }
+    
+  }

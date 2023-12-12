@@ -7,20 +7,15 @@
 }
 
 #aboutme>div{
-    width: 40%;
+    width: 45%;
 }
-
+/* .right_about{
+    width: 40%;
+} */
 .left_about img{
     width: 50%;
 }
 
-/* .right_about #heading,
-.right_about span{
-    font-size: 3.5rem;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 900;
-    text-decoration: underline whitesmoke;
-} */
 
 .right_about .description{
     padding-bottom: 20px;
@@ -35,3 +30,15 @@
     font-family: 'Poppins', sans-serif;
     text-shadow: 2px 2px 5px blue;
 }
+
+/* Responsive styles */
+
+@media only screen and (max-width: 850px) {
+    .left_about {
+      display: none;
+    }
+    #aboutme>div {
+        width: 80%; 
+      }
+  }
+  

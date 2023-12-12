@@ -1,4 +1,4 @@
-#skill{
+#skill {
     display: block;
     justify-content: center;
     text-align: center;
@@ -16,20 +16,20 @@
     text-decoration: underline whitesmoke;
 } */
 
-.skill_container{
+.skill_container {
     display: flex;
     justify-content: space-evenly;
     margin-top: 100px;
     row-gap: 3.5rem;
 }
 
-.skill_content{
-    margin:0 100px;
+.skill_content {
+    margin: 0 100px;
     border-radius: 5%;
     background-color: #00163154;
 }
 
-.skill_title{
+.skill_title {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,69 +44,79 @@
 
 .skill_info,
 .skill_data,
-.skill_blob{
+.skill_blob {
     display: grid;
 }
 
-.skill_info{
-    grid-template-columns: repeat(4,1fr);
+.skill_info {
+    grid-template-columns: repeat(4, 1fr);
     gap: 2.5rem 2rem;
 }
 
-.skill_data{
+.skill_data {
     justify-content: center;
     text-align: center;
 }
-.skill_blob{
+
+.skill_blob {
     display: flex;
     width: 90px;
-    height: 100px;
+    height: 90px;
     background-color: rgba(255, 255, 255, 0.15);
     border-radius: 3rem;
     justify-content: center;
     align-items: center;
-    margin:1rem 1rem;
+    margin: 1rem 1rem;
     transition: all 0.5s ease;
 }
-.skill_blob:hover{
+
+.skill_blob:hover {
     background-color: rgba(255, 255, 255, 0.05);
 }
 
-.skill_blob img{
+.skill_blob img {
     width: 50%;
 }
-.skill_blob:hover img{
+
+.skill_blob:hover img {
     animation: blink 0.5s ease;
     transition: all 0.5s ease;
 }
+
 @keyframes blink {
-    0%{
+    0% {
         transform: translateY(0);
     }
-    25%{
+
+    25% {
         transform: translateY(-5px);
     }
-    50%{
+
+    50% {
         transform: translateY(0);
     }
-    75%{
+
+    75% {
         transform: translateY(-3px);
     }
-    100%{
+
+    100% {
         transform: translateY(0);
     }
-    
+
 }
 
-.skill_name{
+.skill_name {
     font-size: 0.9rem;
     font-family: monospace;
 }
-.skill_field{
+
+.skill_field {
     font-size: 0.7rem;
     font-family: monospace;
     color: rgb(122, 122, 122);
 }
+
 /* .subheading{
     font-size: 1rem;
     font-family: monospace;
@@ -115,25 +125,61 @@
 } */
 
 
+
 /* Responsive styles */
 
-@media only screen and (max-width: 1200px) {
-    .skill_container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
+@media only screen and (max-width: 1300px) {
     .skill_content {
-      width: 80%;
-      margin-bottom: 20px;
+        width: 85%;
+        margin-bottom: 20px;
     }
-  
+
     .skill_blob {
-      width: 70px;
-      height: 80px;
+        width: 60px;
+        height: 60px;
+        margin: 0.5rem 0.5rem;
     }
-  
-    .skill_blob img {
-      width: 40%;
+
+    .skill_title {
+        font-size: 1.5rem;
     }
-  }
+}
+
+@media only screen and (max-width: 1100px) {
+    .skill_content {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .skill_blob {
+        width: 50px;
+        height: 50px;
+        margin: 0.5rem 0.5rem;
+    }
+
+    .skill_title {
+        font-size: 1.2rem;
+    }
+
+    .skill_name {
+        font-size: 0.7rem;
+    }
+
+    .skill_field {
+        font-size: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .skill_container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .skill_info {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem 1rem;
+    }
+}
