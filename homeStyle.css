@@ -39,6 +39,7 @@
     animation: floatingimg 4s ease-in-out infinite;
     animation-delay: 2s;
     align-self: center;
+    
 }
 
 @keyframes floatingimg {
