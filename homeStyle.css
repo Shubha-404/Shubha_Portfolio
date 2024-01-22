@@ -19,7 +19,7 @@
     display: block;
     justify-content: center;
     align-items: center;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 #home .rightsec {
@@ -72,7 +72,7 @@
 
 #element {
     color: #48b0ffd3;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-family: 'Nova Square', sans-serif;
     font-weight: 700;
     text-shadow: 0 0 10px rgb(63, 5, 223);
@@ -118,13 +118,13 @@
     }
 
     #home .leftsec {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .name {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     #element{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
   }
