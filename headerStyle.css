@@ -73,12 +73,12 @@ nav ul li a:hover::after {
   
     .left {
       margin-left: 5px;
-      margin-bottom: 2px;
-      font-size: 1.2rem;
+      margin-bottom: 0px;
+      font-size: 1rem;
     }
     .update{
-      font-size: 0.5rem;
-      margin: 1px 0;
+      font-size: 0.4rem;
+      margin: 0 0;
     }
   
     nav ul {
@@ -86,11 +86,11 @@ nav ul li a:hover::after {
     }
   
     nav ul li {
-      margin: 2px 0;
+      margin: 1px 0;
     }
   
     nav ul li a {
-      font-size: 0.7rem;
+      font-size: 0.5rem;
       padding: 8px;
     }
 

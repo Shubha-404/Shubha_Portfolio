@@ -1,13 +1,13 @@
-#contactme {
-    display: block;
-    justify-content: center;
-    text-align: center;
-    margin: 50px 0;
-    padding: 100px 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), #001631bd, rgba(0, 0, 0, 0.8));
-}
-
-
+ #contactme {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     /* text-align: center; */
+     margin: 50px 0;
+     padding: 100px 0;
+     background: linear-gradient(rgba(0, 0, 0, 0.8), #001631bd, rgba(0, 0, 0, 0.8));
+ }
+/*
 #contactme .social {
     display: flex;
     justify-content: space-evenly;
@@ -45,4 +45,236 @@
         height: 40px;
         width: 40px;
     }
+} */
+
+.containerContactForm{
+    background-color: rgba(0, 0, 0,0);
+    /* padding: 10px 10px; */
+    margin: 0 auto;
+    height: 400px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* gap: 10px; */
+    
 }
+.leftContactForm{
+    width: 45%;
+    background: linear-gradient(#cc008f81, rgba(83, 0, 135, 0.541));
+    border-radius:10px;
+    border: 2px solid black;
+    padding: 10px 10px;
+
+
+    & #leftTitleContactForm{
+        margin-left: 10px;
+        margin-right: auto;
+        background: rgba(0, 0, 0, 0);
+        color:rgb(255, 255, 255);
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    & #leftSubTitleContactForm{
+        margin-left: 10px;
+        margin-right: auto;
+        background: rgba(0, 0, 0, 0);
+        color:rgba(255, 255, 255, 0.49);
+        font-size: 0.7rem;
+        font-weight: 300;
+    }
+
+    & .social{
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        background-color: rgba(0, 0, 0, 0);
+    
+        & a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-self: center;
+            margin: 0 auto;
+            height: 40px;
+            width: 40px;
+            border-radius: 20%;
+            border: 2px solid rgb(255, 255, 255);
+            background-color: rgba(0, 0, 0, 0);
+            transition: all 0.3s ease;
+    
+            &:hover {
+                box-shadow: 0 0 6px 2px rgba(255, 255, 255, 0.7);
+                background-color: rgb(0, 0, 0);
+            }
+        }
+        a img {
+            width: 65%;
+            transition: all 0.3s ease;
+            background-color: rgba(0, 0, 0, 0);
+        }
+    }
+
+    .otherLinkSection{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .ResumeDownloadButton{
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        height: auto; 
+        width: 60%;
+        margin: 0 auto;
+        background-color: #40002d;
+        color: white;
+        font-size: 1rem;
+        padding: 5px 5px;
+        border: 1px solid white;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    
+        &:hover{
+            background-color: #000000;
+            box-shadow: 0 0 4px 2px rgba(255, 255, 255, 0.7);
+        }
+    }
+}
+
+
+.rightContactForm{
+    width: 45%;
+    background: linear-gradient(#cc008f81, rgba(83, 0, 135, 0.541));
+    padding: 10px 10px;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & #rightTitleContactForm{
+        margin-left: 10px;
+        margin-bottom: 0px;
+        margin-right: auto;
+        background: rgba(0, 0, 0, 0);
+        color:rgb(255, 255, 255);
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    & #rightSubTitleContactForm{
+        margin-left: 10px;
+        margin-right: auto;
+        margin-bottom: 10px;
+        background: rgba(0, 0, 0, 0);
+        color:rgba(255, 255, 255, 0.49);
+        font-size: 0.7rem;
+        font-weight: 300;
+    }
+
+    & input{
+        background: rgba(0, 0, 0, 0.436);
+        width: 90%;
+        height: 25px;
+        margin: 7px;
+        padding: 5px;
+        border-radius: 10px;
+        border: 1.5px solid rgb(255, 255, 255);
+        box-shadow: 0 0 5px 2px rgb(19, 19, 102);
+    
+        color: white;
+        font-size: 0.9rem;
+        font-weight: 550;
+    }
+
+    & #ContactNameInput{
+        text-transform: uppercase;
+    }
+
+    & textarea{
+        background: rgba(0, 0, 0, 0.436);
+        width: 90%;
+        height: 80px;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 10px;
+        border: 1.5px solid rgb(255, 255, 255);
+        box-shadow: 0 0 5px 2px rgb(19, 19, 102);
+    
+        color: white;
+        font-size: 0.9rem;
+    }
+    
+    & input:focus, textarea:focus {
+        box-shadow: 0 0 6px 2px rgba(255, 255, 255, 0.7);
+    }
+    
+    
+    & button {
+        margin-top: auto;
+        background-color: #40002d;
+        width: 35%;
+        color: white;
+        font-size: 1rem;
+        padding: 5px 5px;
+        margin-bottom: 10px;
+        border: 1px solid white;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    
+        &:hover{
+            background-color: #000000;
+            box-shadow: 0 0 4px 2px rgba(255, 255, 255, 0.7);
+        }
+    } 
+}
+
+
+.social{
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0);
+
+    & a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        margin: 0 auto;
+        height: 50px;
+        width: 50px;
+        border-radius: 20%;
+        border: 2px solid rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0);
+        transition: all 0.3s ease;
+
+        &:hover {
+            box-shadow: 0 0 6px 2px rgba(255, 255, 255, 0.7);
+            background-color: rgb(0, 0, 0);
+        }
+    }
+    a img {
+        width: 65%;
+        transition: all 0.3s ease;
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
