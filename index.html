@@ -8,6 +8,9 @@
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,14 +37,14 @@
 
 <body>
 
-
+    <!-- HEADER OF PORTFOLIO -->
     <header>
-        <nav>
-            <div class="left">
+        <nav class="header">
+            <div class="leftHeader">
                 Shubha's <span class="bluePortfolio">Portfolio</span>
                 <div class="update">Last Updated 28-11-2023</div>
             </div>
-            <div class="right">
+            <div class="rightHeader">
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#aboutme">About</a></li>
@@ -59,15 +62,15 @@
 
 
         <section id="home" class="home">
-            <div class="leftsec">
-                <div>Hi, I'm</div>
-                <span class="name">Shubhajit Rana</span>
-                <div>& I'm a passionate</div>
+            <div class="leftsec" id="homeDiv">
+                <div id="homeText">Hi, I'm</div>
+                <span class="name" id="homeText">Shubhajit Rana</span>
+                <div id="homeText">& I'm a passionate</div>
                 <!-- <div>Electrical Engineer</div> -->
                 <span id="element"></span>
             </div>
-            <div class="rightsec">
-                <img src="user.jpg" alt="">
+            <div class="rightsec" id="homeDiv">
+                <img class="userImageHome" src="user.jpg" alt="">
             </div>
         </section>
 
@@ -106,7 +109,7 @@
                         <div class="year">📅 2021-2025</div>
                         <div class="score"> CGPA : 8.69</div>
                     </div>
-                    
+
                     <div class="section">
                         <div class="des">12th Grade in PCMB (WBCHSE) </div>
                         <div class="institution">Nayabasan JanaKalyan Vidyapith H.S.</div>
@@ -381,65 +384,67 @@
 
             <!-- LEFT PART OF THE CONTACT SECTION -->
 
-    <div class="containerContactForm">
-        <div class="leftContactForm">
-            <h3 id="leftTitleContactForm">Connect Me Through...</h3>
-            <h7 id="leftSubTitleContactForm">Click on icon to connect</h7>
-            <section class="social">
-                <a href="mailto:shubha.error@gmail.com">
-                    <img src="social_logo/gmail.svg" alt="Gmail">
-                </a>
-                <a href="https://www.linkedin.com/in/shubha404/">
-                    <img src="social_logo/linkedin.svg" alt="linkedin">
-                </a>
+            <div class="containerContactForm">
+                <div class="leftContactForm">
+                    <h3 id="leftTitleContactForm">Connect Me Through...</h3>
+                    <h7 id="leftSubTitleContactForm">Click on icon to connect</h7>
+                    <section class="social">
+                        <a href="mailto:shubha.error@gmail.com">
+                            <img src="social_logo/gmail.svg" alt="Gmail">
+                        </a>
+                        <a href="https://www.linkedin.com/in/shubha404/">
+                            <img src="social_logo/linkedin.svg" alt="linkedin">
+                        </a>
 
-                <a href="https://www.facebook.com/profile.php?id=100090834150823&mibextid=kFxxJD">
-                    <img src="social_logo/facebook.svg" alt="facebook">
-                </a>
-                <a href="https://www.instagram.com/shubhajitrana_404errornotfound/">
-                    <img src="social_logo/instagram.svg" alt="instagram">
-                </a>
-                <a href="#">
-                    <img src="social_logo/twitter.svg" alt="twitter">
-                </a>
-                <a href="https://github.com/Shubha-404">
-                    <img src="social_logo/github.svg" alt="github">
-                </a>
-            </section>
+                        <a href="https://www.facebook.com/profile.php?id=100090834150823&mibextid=kFxxJD">
+                            <img src="social_logo/facebook.svg" alt="facebook">
+                        </a>
+                        <a href="https://www.instagram.com/shubhajitrana_404errornotfound/">
+                            <img src="social_logo/instagram.svg" alt="instagram">
+                        </a>
+                        <a href="#">
+                            <img src="social_logo/twitter.svg" alt="twitter">
+                        </a>
+                        <a href="https://github.com/Shubha-404">
+                            <img src="social_logo/github.svg" alt="github">
+                        </a>
+                    </section>
 
-            <h3 id="leftTitleContactForm">Other Links...</h3>
-            <h7 id="leftSubTitleContactForm">Click on button to download Resume</h7>
+                    <h3 id="leftTitleContactForm">Other Links...</h3>
+                    <h7 id="leftSubTitleContactForm">Click on button to download Resume</h7>
 
-            <section class="otherLinkSection">
-                <a href="Resume/ShubhaResumeIT.pdf" download="Shubha_Resume_IT.pdf" class="ResumeDownloadButton">
-                    Resume EE
-                </a>
-                <a href="Resume/ShubhaResumeCore.pdf" download="Shubha_Resume_Core.pdf"class="ResumeDownloadButton">
-                    Resume IT
-                </a>
-            </section>
-
-
-
-        </div>
+                    <section class="otherLinkSection">
+                        <a href="Resume/ShubhaResumeIT.pdf" download="Shubha_Resume_IT.pdf"
+                            class="ResumeDownloadButton">
+                            Resume EE
+                        </a>
+                        <a href="Resume/ShubhaResumeCore.pdf" download="Shubha_Resume_Core.pdf"
+                            class="ResumeDownloadButton">
+                            Resume IT
+                        </a>
+                    </section>
 
 
-        <!-- RIGHT PART OF THE CONTACT SECTION -->
-        
-        <div class="rightContactForm">
 
-            <h3 id="rightTitleContactForm">Fill This...</h3>
-            <h7 id="rightSubTitleContactForm">Add your details in my Spreedsheet</h7>
+                </div>
 
-            <input id="ContactNameInput" type="text" name="Name" placeholder="Your Name" required="">
-            <input type="email" name="email" placeholder="Your Email" required="">
-            <input type="tel" name="ph" placeholder="Your Contact Number" required="">
-            <textarea name="text" rows="8" placeholder="Your Message" required="" spellcheck="false"></textarea>
-            <button class="btn">
-                Submit
-            </button>
-        </div>
-    </div>
+
+                <!-- RIGHT PART OF THE CONTACT SECTION -->
+
+                <div class="rightContactForm">
+
+                    <h3 id="rightTitleContactForm">Fill This...</h3>
+                    <h7 id="rightSubTitleContactForm">Add your details in my Spreedsheet</h7>
+
+                    <input id="ContactNameInput" type="text" name="Name" placeholder="Your Name" required="">
+                    <input type="email" name="email" placeholder="Your Email" required="">
+                    <input type="tel" name="ph" placeholder="Your Contact Number" required="">
+                    <textarea name="text" rows="8" placeholder="Your Message" required="" spellcheck="false"></textarea>
+                    <button class="btn">
+                        Submit
+                    </button>
+                </div>
+            </div>
 
         </section>
 

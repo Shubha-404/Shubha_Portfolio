@@ -145,7 +145,7 @@
         border: 1px solid white;
         border-radius: 5px;
         cursor: pointer;
-        transition: background-color 0.3s;
+        transition: all 0.3s ease;
     
         &:hover{
             background-color: #000000;
@@ -194,6 +194,7 @@
         border-radius: 10px;
         border: 1.5px solid rgb(255, 255, 255);
         box-shadow: 0 0 5px 2px rgb(19, 19, 102);
+        transition: all 0.3s ease;
     
         color: white;
         font-size: 0.9rem;
@@ -213,6 +214,7 @@
         border-radius: 10px;
         border: 1.5px solid rgb(255, 255, 255);
         box-shadow: 0 0 5px 2px rgb(19, 19, 102);
+        transition: all 0.3s ease;
     
         color: white;
         font-size: 0.9rem;
@@ -234,7 +236,7 @@
         border: 1px solid white;
         border-radius: 5px;
         cursor: pointer;
-        transition: background-color 0.3s;
+        transition: all 0.3s ease;
     
         &:hover{
             background-color: #000000;
@@ -278,3 +280,24 @@
     }
 }
 
+
+/* CSS FOR RESPONSIVE  */
+
+@media only screen and (max-width: 650px) {
+    .containerContactForm {
+        flex-direction: column-reverse;
+        height: 800px;
+        width: 300px;
+        overflow: hidden;
+    }
+    .leftContactForm{
+        align-self: center;
+        width: 90%;
+        height: 45%;
+    }
+    .rightContactForm{
+        align-self: center;
+        width: 90%;
+        height: 45%;
+    }
+}
